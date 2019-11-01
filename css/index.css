@@ -48,7 +48,7 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+    box-about-sizing: border-box-about;
 }
 
 html, body {
@@ -66,6 +66,37 @@ p {
     line-height: 1.4;
 }
 
+/*-------------Navigation------------ */
+.navigation{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: 800px;
+    margin: 0 auto; 
+    margin-top: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navigation nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    padding: 40px;
+    color: black;
+	text-decoration: none;
+}
+/*----------jumbo.jpg 2nd line----------*/
+.jumbo{
+    display: flex;
+    justify-items; flex-start;
+    width: 800px;
+    margin: 25px auto;
+}
+/*-------Container--------------------*/
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,7 +132,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,6 +142,38 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/*----Coloring the ten middle-page-------*/
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+} 
 
 .bottom-content {
     display: flex;
@@ -143,4 +206,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*~~~~~~~~~~~~code for about page~~~~~~~~~~~~~~~~~~*/
+
+.about-line{
+    border-bottom: 2px dotted black;
+    width: 100%;
+    padding: 0 3%;
+    padding-bottom: 20px;
+}
+
+/*-----------Middle section of about page------------------*/
+
+.middle-page{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.middle-page .box-about{
+    width: 45%;
+    border-bottom: 2px dotted grey;
+	/* padding: 20px; */
+	display: flex;
+	flex-direction: column;
+    margin: 15px;
+}
+.middle-page .box-about .button{
+	width: 120px;
+	padding: 5px 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 0;
+}
+.middle-page h2{
+    padding-top: 20px;
+}
+/*----Let's work Together part----*/
+
+.together-section{
+    margin: 40px 15px;
 }
