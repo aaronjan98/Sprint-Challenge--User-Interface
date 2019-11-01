@@ -85,13 +85,14 @@ p {
     justify-content: space-evenly;
 }
 nav a{
-    padding: 6%;
+    padding: 4.5%;
     color: black;
 	text-decoration: none;
 }
 /*----------jumbo.jpg 2nd line----------*/
 .jumbo{
     display: flex;
+    justify-items; flex-start;
     width: 800px;
     margin: 25px auto;
 }
@@ -125,13 +126,13 @@ nav a{
     margin-bottom: 0;
 }
 
-.middle-content .middle-page {
+.middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .middle-page .box-about {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,36 +144,36 @@ nav a{
 }
 
 /*----Coloring the ten middle-page-------*/
-#box-about1{
+#box1{
     background-color: teal;
 }
-#box-about2{
+#box2{
     background-color: gold;
 }
-#box-about3{
+#box3{
     background-color: cadetblue;
 }
-#box-about4{
+#box4{
     background-color: coral;
 }
-#box-about5{
+#box5{
     background-color: crimson;
 }
-#box-about6{
+#box6{
     background-color: forestgreen;
 }
-#box-about7{
+#box7{
     background-color: darkorchid;
 }
-#box-about8{
+#box8{
     background-color: hotpink;
 }
-#box-about9{
+#box9{
     background-color: indigo;
 }
-#box-about10{
+#box10{
     background-color: dodgerblue;
-}
+} 
 
 .bottom-content {
     display: flex;
@@ -233,9 +234,9 @@ footer nav a {
 }
 .middle-page .box-about .button{
 	width: 120px;
-	padding: 5px 15px;
+	padding: 5px 10px;
 	border: 2px solid black;
-	border-radius: 5px;
+	border-radius: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -247,5 +248,5 @@ footer nav a {
 /*----Let's work Together part----*/
 
 .together-section{
-
+    margin: 40px 15px;
 }
